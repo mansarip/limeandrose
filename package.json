@@ -1,0 +1,31 @@
+{
+  "name": "storybook-kafa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook",
+    "start": "start-storybook"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@storybook/addon-actions": "^5.0.11",
+    "@storybook/addon-console": "^1.1.0",
+    "@storybook/addon-info": "^5.0.11",
+    "@storybook/addon-knobs": "^5.0.11",
+    "@storybook/addon-notes": "^5.0.11",
+    "@storybook/addon-viewport": "^5.0.11",
+    "@storybook/react": "^5.0.11",
+    "babel-loader": "^8.0.6"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.0.0-beta.2",
+    "@material-ui/icons": "^3.0.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
